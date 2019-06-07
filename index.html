@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=width-device, initial-scale=1">
+		<title> Coffee </title>
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed" >
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+
+		<div class="tudo container-fluid">	
+			<div class="row">
+
+				<header class="navbar-fixed-top">
+					<nav class="navbar navbar-default navbar_cafe">
+
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="nav-brand logo text-center"><img src="assets/logo.png" alt="logo cafe"> </a>
+						
+						<div class="collapse navbar-collapse navbar_menu" id="myNavbar">
+							<ul class="nav navbar-nav text-center">
+								<li class=""> <a href="#" title="Conheça nossos cafés"> Nossos Cafés </a> </li>
+								<li class=""> <a href="#" title="Quem somos"> Sobre </a> </li>
+								<li class="offset-nav"> <a href="#" title="O que vendemos"> Cardápio </a> </li>
+								<li class=""> <a href="#" title="Entre em contato conosco"> Contatos </a> </li>
+							</ul>
+						</div>
+					</nav>
+				</header>
+
+
+				<main class="container-fluid" id="topo">
+					<div class="row">
+
+						<section class="banner hidden-xs">
+							<img src="assets/banner.jpg">
+						</section>
+
+						<section>
+							<h1 class="container white ns_title" >Nossos Sabores</h1>
+							<div class="faixa">
+								<div class="container nossosSabores">
+									<div class="row">
+										<article class="col-xs-12 col-sm-4">
+											<a href="#">
+												<figure>
+													<img class="thumbnail col-xs-12 col-md-12" src="assets/thumb_1.jpg" alt="cafe1">	
+												</figure> 
+												<h2> Café</h2>
+											</a>
+										</article>
+
+										<article class="col-xs-12 col-sm-4">
+											<a href="#"> 
+												<figure>
+													<img class="thumbnail col-xs-12 col-md-12" src="assets/thumb_2.jpg" alt="cafe2">	
+												</figure> 
+												<h2> Café</h2>
+											</a>
+										</article>
+
+										<article class="col-xs-12 col-sm-4">
+											<a href="#"> 
+												<figure>
+													<img class="thumbnail col-xs-12 col-md-12" src="assets/thumb_3.jpg" alt="cafe3">	
+												</figure> 
+												<h2> Café</h2>
+											</a>
+										</article>	
+									</div>
+								</div> 
+							</div> 	
+						</section> 
+
+
+						<article>
+							<div class="call">
+								<img src="assets/imagem1.png" alt="">
+								<h1> Venha conhecer nossa loja!</h1>
+								<p> Encontre a loja mais perto de você</p>
+								<button class="btn btn-cafe"> Nossas lojas </button>
+							</div>
+						</article>
+
+
+						<section class="receitas">
+							<div class="faixa receita_faixa col-sm-10 col-md-9 col-lg-7">
+								<hgroup class="col-sm-offset-1 col-md-offset-1 col-lg-offset-3">
+									<h1 class=""> Receitas </h1>
+									<h4 class="white"> Descubra deliciosos drinks feitos com café </h4>
+								</hgroup>
+							</div>
+							
+							<div class="container">
+								<div class="row">
+
+									<div class="box_receita col-sm-12 col-md-10 col-lg-8">
+										<article class="col-sm-4 col-md-4">
+											<a href="">
+												<img src="assets/mini_1.jpg">
+												<h2 class="thumb_rodape"> Cappuccino </h2>
+											</a>
+										</article>
+
+										<article class="col-sm-4 col-md-4">
+											<a href="">
+												<img src="assets/mini_2.jpg">
+												<h2 class="thumb_rodape"> Cappuccino </h2>
+											</a>
+										</article>
+
+										<article class="col-sm-4 col-md-4">
+											<a href="">
+												<img src="assets/mini_3.jpg">
+												<h2 class="thumb_rodape"> Cappuccino </h2>
+											</a>
+										</article>
+
+										<article class="col-sm-4 col-md-4">
+											<a href="">
+												<img src="assets/mini_4.jpg">
+												<h2 class="thumb_rodape"> Cappuccino </h2>
+											</a>
+										</article>
+
+										<article class="col-sm-4 col-md-4">
+											<a href="">
+												<img src="assets/mini_5.jpg">
+												<h2 class="thumb_rodape"> Cappuccino </h2>
+											</a>
+										</article>
+
+										<article class="col-sm-4 col-md-4">
+											<a href="">
+												<img src="assets/mini_6.jpg">
+												<h2 class="thumb_rodape"> Cappuccino </h2>
+											</a>
+										</article>
+									</div>
+
+									<aside class="hidden-xs hidden-sm hidden-md col-md-4"> </aside>
+								</div>					
+							</div>							
+						</section>
+
+
+						<div class="col-md-offset-3 col-lg-offset-4">
+							<div class="newsletter">
+								<div class="faixa newsletter_faixa">
+									<div class="container-fluid">
+										<div class="row">
+											<hgroup class="nwsl_title text-center col-sm-6">
+												<h2> Fique por dentro das </h2>
+												<h1> NOVIDADES!</h1>
+											</hgroup>
+
+											<form name="formulario" method="post" enctype="text/plain" validate class=" col-sm-6">
+												<div class="input_box">
+													<input class="form-group form-control" type="text" name="nome" placeholder="nome" required >
+													<input class="form-group form-control" type="text" name="email" placeholder="email"  required >
+													<button class="btn btn-cafe enviar"> Enviar </button>
+												</div> 
+											</form>
+										</div>
+									</div> 
+								</div> 
+							</div>
+						</div> 
+
+
+						<div class="topo" >
+							<a href="#topo">
+								<p class="glyphicon glyphicon-chevron-up"></p>
+								<p> Topo </p>
+							</a>				
+						</div>
+
+					</div>
+				</main>
+
+
+				<footer>
+					<div class="container-fluid">
+						<div class="row">
+
+							<nav class="col_nav col-xs-6 col-sm-3 col-md-3">					
+								<ul class="nav nav-stacked nav_footer">
+									<li class="nav-header">MENUS</li>
+									<li><a href="" title="Loja Café"> Home </a></li>
+									<li><a href="" title="Quem somos"> Sobre </a></li>
+									<li><a href="" title="O que vendemos"> Cardápio </a></li>
+									<li><a href="" title="Entre em contato conosco"> Contatos </a></li>
+								</ul>
+							</nav>
+
+							<nav class=" col_nav col-xs-6 col-sm-3 col-md-3">					
+								<ul class="nav nav-stacked nav_footer">
+									<li class="nav-header">MÍDIAS</li>
+									<li><a href=""> Galeria de fotos </a></li>
+									<li><a href=""> Vídeos </a></li>
+								</ul>
+							</nav>
+
+							<nav class="col_nav col-xs-12 col-sm-3 col-md-3">
+								<h4>CONTATO</h4>
+								<p>Rua Lorem Ipsun, 587</p>
+								<p>Tel: 5711-1183</p>
+								<p>Cel: 9 4752-3579</p>
+							</nav>
+
+							<nav class="col_nav col-xs-12 col-sm-3 col-md-3">
+								
+								<ul class="nav icon_redesSociais">
+									<li class="nav-header">REDES SOCIAIS</li>
+									<li class="col_mobile_4 col-xs-4 col-sm-4 col-md-4"><a href="http://facebook.com" title="facebook" target="_blank"><img src="assets/icon_facebook.png" alt="facebook"></a></li>
+									<li class="col_mobile_4 col-xs-4 col-sm-4 col-md-4"><a href="https://twitter.com" title="twitter" target="_blank"><img src="assets/icon_twitter.png" alt="twitter"></a></li>
+									<li class="col_mobile_4 col-xs-4 col-sm-4 col-md-4"><a href="http://instagram.com" title="instagram" target="_blank"><img src="assets/icon_instagram.png" alt="instagram"></a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</footer>
+
+
+			</div>
+		</div>
+		
+
+		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	</body>
+</html>

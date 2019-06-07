@@ -1,0 +1,14 @@
+bg
+#210a02
+
+Faixas
+#100502
+
+Laranja
+#e06f00
+
+Laranja selecionado
+#ff9e40
+
+Branco
+#eaeae9

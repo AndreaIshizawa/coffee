@@ -1,0 +1,381 @@
+/*Cores*/
+.white{
+	color: #eaeae9;
+}
+
+.faixa{
+	background-color: #100502;
+}
+
+html,
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+	background-image: url("../assets/background_pattern.png");
+	background-color: #210a02;
+	color: #e06f00;
+}
+
+.logo img{
+	width: 20%;
+	cursor: pointer;
+}
+
+/*===== NAVBAR =====*/
+.navbar_cafe{
+	background-color: #210a02;	
+	margin-bottom: 0;
+	border: none;
+	height: 70px;
+}
+
+.navbar_cafe > button{
+	background-color: #100502;
+	border-color: #e06f00 !important; 
+	margin-top: 15px;
+	transition: 0.5s;
+}
+
+.navbar_cafe > button:hover, .navbar_cafe > button:focus{
+	background-color: #330d0b !important;
+	transition: 0.5s;
+}
+
+.icon-bar{
+	background-color: #e06f00 !important;
+}
+
+.navbar_menu{
+	border-top: none;
+	border-bottom: 2px solid #e06f00 !important;
+	background-color: #210a02;
+}
+
+
+/*===== NAV =====*/
+.navbar-nav{
+	margin: 0;
+}
+
+.navbar-default .navbar-nav>li>a
+{
+	color: #e06f00;	
+	transition: 0.5s;
+}
+
+.navbar_cafe .navbar_menu li a:hover,
+.navbar_cafe .navbar_menu li a:focus{
+	color: #ff9e40;
+	background-color: #100b01;
+	transition: 0.5s;
+}
+
+.banner{
+	width: 100%;
+	margin-top: 50px;
+}
+
+.banner img{
+	width: 100%;
+}
+
+/*===== NOSSOS SABORES =====*/
+
+.ns_title{
+	margin-top: 30%;
+	font-size: 46px;
+}
+
+article > a{
+	color: #e06f00;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+
+
+.nossosSabores > div > article > a:hover, 
+.nossosSabores article > a:hover > h2,
+.nossosSabores > div > article > a:focus, 
+.nossosSabores article > a:focus > h2{
+	color: #ff9e40;
+	font-size: 32px;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+/*===== CALL =====*/
+.call{
+	text-align: center;
+	padding: 20% 2%; 
+}
+
+.call img{
+	width: 25%;
+}
+
+.btn-cafe{
+	background-color:#e06f00;
+	color: #eaeae9;
+	transition: 0.5s;
+}
+
+.btn-cafe:hover{
+	background-color:#ff9e40;
+	color: #eaeae9;
+	font-size: 120%;
+	transition: 0.5s;
+}
+.btn-cafe:focus{
+	color: #eaeae9;
+}
+
+.receita_faixa{
+	padding:10% 10%;
+}
+
+.receitas h3{
+	font-size: 
+}
+
+.box_receita{
+	margin: 5% 0;
+	text-align: center;
+	transition: 0.5s;
+}
+
+.box_receita > article{
+	margin-bottom: 50px;
+}
+
+.box_receita > article > a:hover{
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+.box_receita > article > a:hover >h2{
+	color: #e06f00;
+	transition: 0.5s;
+}
+.thumb_rodape{
+	font-size: 20px;
+	margin-bottom: 5%;
+	color: #eaeae9;
+}
+
+
+/*===== ASIDE =====*/
+aside{
+	background: url("../assets/imagem3.png") no-repeat;
+	height: 430px;
+}
+
+
+/*===== NEWSLETTER =====*/
+.nwsl_title, .input_box{
+	padding: 0 15px; 
+}
+
+.newsletter h1{
+	font-size: 46px;
+	margin-bottom: 15%;
+}
+
+.newsletter h2{
+	color: #eaeae9;
+}
+
+.newsletter_faixa{
+	padding: 5% 0;
+	margin-bottom: 5%;
+}
+
+
+/*===== TOPO =====*/
+.topo{
+	margin: 0 auto 5% auto;
+	text-align: center;
+}
+
+.topo p{
+	margin: 0;	
+	line-height: 0.7
+}
+
+.topo a{
+	text-decoration: none;
+	color: currentColor;
+}
+
+
+/*===== FOOTER =====*/
+footer{
+	background-color: #030303;
+	color: #eaeae9;
+}
+
+.nav_footer li a{
+	color: #eaeae9;
+	padding: 5px 15px;
+	font-size: 12px;
+	transition: 0.5s;
+}
+
+.nav_footer li a:hover{
+	color: #ff9e40;
+	background-color: transparent;
+	transition: 0.5s;
+}
+
+.col_nav{
+	margin: 5% 0;
+	text-align: center;
+}
+
+.icon_redesSociais{
+	list-style: none;
+}
+
+.icon_redesSociais{
+	margin: 1% 25%;
+}
+
+.icon_redesSociais li a img{
+	width: 80%;
+}
+
+.icon_redesSociais li a:hover{
+	background-color: transparent;
+}
+
+.col_mobile_4{
+	padding: 0;
+}
+
+
+
+@media screen and (min-width: 480px){
+	/*body{background-color: red;}*/
+	.logo img{
+		width: 10%;
+	}
+
+	.ns_title{
+		margin-top: 15%;
+	}
+
+	.input_box button{
+		padding: 5px 20px;
+		float: right;
+	}
+
+	.icon_redesSociais li a{
+		padding: 0 10%;
+	}
+}
+
+@media screen and (min-width: 768px){
+	/*body{background-color: blue;}*/
+
+	.logo{
+		position: absolute;
+		width: 100%;
+		top: 0;
+	}
+
+	.logo img{
+		width: 15%;
+	}
+
+	.navbar_menu{
+		width: 100%;
+		padding: 0 100px !important;
+		border-top: none;
+		border-bottom: none !important;
+	}
+
+	.offset-nav{ margin-left: 80px; }
+	.navbar_menu li a{ padding: 15px 30px; }
+	.navbar_cafe .navbar_menu li a{ border-bottom: 3px solid #210a02; }
+	.navbar_cafe .navbar_menu li a:hover,
+	.navbar_cafe .navbar_menu li a:focus{
+		border-bottom: 3px solid #ff9e40;
+	}
+
+	.banner{ margin-top: 70px !important; }
+
+	.ns_title{
+		margin-top: 10%;
+	}
+
+	.nossosSabores{
+		padding: 15px;
+	}
+
+	.call img{
+		width:15%;	
+	}
+
+	.call{
+		padding: 10% 2%; 
+	}
+
+	.receita_faixa{
+		padding:2% 2%;
+	}
+
+	.newsletter_faixa{
+		padding: 8% 0;
+	}
+
+	.newsletter h1{
+		margin-bottom: 0;
+	}
+
+	.topo p{
+		font-size: 24px;
+	}
+}
+
+/*@media screen and (min-width: 1024px){
+	body{background-color: green;}
+}
+*/
+@media screen and (min-width: 1170px){
+	/*body{background-color: yellow;}*/
+
+	.logo img{ width: 7%; }
+	.navbar_menu{ padding: 0 630px !important; }
+	.offset-nav{ margin-left: 150px; }
+	.navbar_menu li a{ padding: 25px 30px; }
+
+	.ns_title{
+		margin-top: 6%;
+	}
+
+	.call img{
+		width:9%;	
+	}
+
+	.icon_redesSociais li a{
+		padding: 15px 10px;
+	}
+
+	.col_nav{
+		margin: 2% 0;
+		text-align: center;
+	}
+
+	.newsletter_faixa{
+		padding: 5% 0;
+		margin-bottom: 5%;
+	}
+
+	.newsletter h1{
+		margin-bottom: 0;
+	}
+
+	.input_box{
+		margin-right: 100px;
+	}
+
+}
